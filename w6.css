@@ -1,3 +1,27 @@
 body{
     background-color: moccasin;
 }
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "content1 content2 content3"
+    ;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+  background-color: rgb(150, 134, 134);
+  padding: 5px;
+}
+.container div {
+  background-color:rgb(64, 130, 108) ;
+  padding: 10px;
+}
+.container div.content1 {
+  grid-area: content1;
+}
+.container div.content2 {
+  grid-area: content2;
+}
+.container div.content3 {
+  grid-area: content3
+}
