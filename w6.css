@@ -8,7 +8,7 @@ body{
     "content1 content2 content3"
     ;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1px;
+  gap: 3px;
   background-color: rgb(150, 134, 134);
   padding: 5px;
 }
